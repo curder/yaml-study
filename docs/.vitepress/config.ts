@@ -30,11 +30,12 @@ export default defineConfig({
             {text: '基础', link: '/guide/rules', activeMatch: '/guide/'},
         ],
         sidebar: {
-            "/guide/rules": [
+            "/guide/": [
                 {
                     text: "",
                     items: [
                         {text: "语法规则", link: "/guide/rules"},
+                        {text: "数据类型", link: "/guide/types"},
                     ],
                 },
             ],
