@@ -26,7 +26,18 @@ export default defineConfig({
         socialLinks: [
             {icon: 'github', link: 'https://github.com/curder/yaml-study'}
         ],
-        nav: [],
-        sidebar: {},
+        nav: [
+            {text: '基础', link: '/guide/rules', activeMatch: '/guide/'},
+        ],
+        sidebar: {
+            "/guide/rules": [
+                {
+                    text: "",
+                    items: [
+                        {text: "语法规则", link: "/guide/rules"},
+                    ],
+                },
+            ],
+        },
     }
 });
