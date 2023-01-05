@@ -208,4 +208,36 @@ date: 2022-01-05 # 日期必须使用 ISO 8601 格式，即 yyyy-MM-dd
 
 ## 复合结构
 
+对象和数组可以结合使用，形成复合结构。
 
+::: code-group
+```yaml [Yaml]
+languages:
+ - PHP
+ - JavaScript
+ - Python
+ - Yaml
+websites:
+ PHP: php.net
+ JavaScript: javascript.com 
+ Python: python.org 
+ Yaml: yaml.org 
+```
+
+```json [Json]
+{
+    "languages": [
+        "PHP",
+        "JavaScript",
+        "Python",
+        "Yaml"
+    ],
+    "websites": {
+        "PHP": "php.net",
+        "JavaScript": "javascript.com",
+        "Python": "python.org",
+        "Yaml": "yaml.org"
+    }
+}
+```
+:::
