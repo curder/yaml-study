@@ -36,6 +36,7 @@ export default defineConfig({
                     items: [
                         {text: "语法规则", link: "/guide/rules"},
                         {text: "数据类型", link: "/guide/types"},
+                        {text: "锚点和引用", link: "/guide/quote"},
                     ],
                 },
             ],
