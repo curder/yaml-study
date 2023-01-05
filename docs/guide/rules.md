@@ -1,6 +1,6 @@
 # 语法规则
 
-YAML 的基本语法规则如下：
+Yaml 的基本语法规则如下：
 
 - 大小写敏感
 - 使用缩进表示层级关系
@@ -10,11 +10,11 @@ YAML 的基本语法规则如下：
 
  ## 大小写敏感
 
-如下 YAML 文件内容，由于 YAML 语法键是严格区分大小写，所以以下内容有效。
+如下 Yaml 文件内容，由于 Yaml 语法键是严格区分大小写，所以以下内容有效。
 
 ::: code-group
 
-```yaml [YAML]
+```yaml [Yaml]
 name: Curder
 Name: Luo
 ```
@@ -37,7 +37,7 @@ Name: Luo
 
 ::: code-group
 
-```yaml [YAML]
+```yaml [Yaml]
 server:
   app:
     host: 127.0.0.1
@@ -61,7 +61,7 @@ server:
 
 ## `#` 代表注释
 ::: code-group
-```yaml [YAML]
+```yaml [Yaml]
 server:
   app:
     # 服务主机
