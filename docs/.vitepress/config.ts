@@ -11,7 +11,7 @@ export default defineConfig({
     ],
     themeConfig: {
         logo: "/images/favicon.svg",
-        siteTitle: "",
+        siteTitle: "Yaml 学习",
         outlineTitle: "内容导航",
         outline: 'deep',
         lastUpdatedText: "最后更新时间",
