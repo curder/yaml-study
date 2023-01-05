@@ -11,7 +11,7 @@ Yaml 支持以下几种数据类型：
 对象也是一个键值对，只不过其值并非是纯量，而是一组键值对。
 
 ::: code-group
-```yaml [YAML]
+```yaml [Yaml]
 root-key:
   child-key1: value1
   child-key2: value2
@@ -30,7 +30,7 @@ root-key:
 Yaml 也允许另一种写法，将所有键值对写成一个行内对象。
 
 ::: code-group
-```yaml [YAML]
+```yaml [Yaml]
 root-key: { child-key1: value1, child-key2: value2 }
 ```
 
@@ -46,7 +46,68 @@ root-key: { child-key1: value1, child-key2: value2 }
 
 ## 数组
 
+以 `-` 开头的行表示构成一个数组：
+
+::: code-group
+```yaml [Yaml]
+fruits:
+  - apple
+  - orange
+  - pear
+```
+
+```json [JSON]
+{
+    "fruits": [
+        "apple",
+        "orange",
+        "pear"
+    ]
+}
+```
+:::
+
+Yaml 数组可以使用行内表示：
+
+::: code-group
+```yaml [Yaml]
+fruits: [ apple, orange, pear ]
+```
+```json
+{
+    "fruits": [
+        "apple",
+        "orange",
+        "pear"
+    ]
+}
+```
+:::
+
+数据结构的子成员是一个数组，则可以在该项下面缩进一个空格：
+
+::: code-group
+```yaml [Yaml]
+-
+  - apple
+  - orange
+  - pear 
+```
+
+```json [JSON]
+[
+    [
+        "apple",
+        "orange",
+        "pear"
+    ]
+]
+```
+::: 
+
 ## 纯量
+
+
 
 ## 符合结构
 
