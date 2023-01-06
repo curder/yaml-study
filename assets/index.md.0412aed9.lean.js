@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,a as o}from"./app.32747d39.js";const g=JSON.parse('{"title":"Yaml 学习","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","lastUpdated":1672974235000}'),n={name:"index.md"},l=o("",9),r=[l];function i(s,d,c,p,_,u){return t(),a("div",null,r)}const h=e(n,[["render",i]]);export{g as __pageData,h as default};
