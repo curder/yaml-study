@@ -16,3 +16,7 @@
 **缺点**：
 - 使用缩进表示层级关系，而缩进使用的是空格，所以对层级关系要求严格，层级错误就会导致数据错误
 - 键和值在 `:` 之间使用 `:` 空格隔开，如果键和值在同一行编写时，必须提供空格
+
+## 相关链接
+
+- [yaml to json converter](https://onlineyamltools.com/convert-yaml-to-json)
