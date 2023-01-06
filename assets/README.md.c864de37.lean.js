@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a as o}from"./app.32747d39.js";const g=JSON.parse('{"title":"Yaml 学习","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","lastUpdated":1672974235000}'),l={name:"README.md"},n=o("",9),r=[n];function s(i,c,p,_,d,u){return t(),e("div",null,r)}const h=a(l,[["render",s]]);export{g as __pageData,h as default};
