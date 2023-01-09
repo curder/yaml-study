@@ -28,6 +28,7 @@ export default defineConfig({
         ],
         nav: [
             {text: '基础', link: '/guide/rules', activeMatch: '/guide/'},
+            {text: '其他语言支持', link: '/languages/php', activeMatch: '/languages/'},
         ],
         sidebar: {
             "/guide/": [
@@ -39,6 +40,14 @@ export default defineConfig({
                         {text: "锚点和引用", link: "/guide/quote"},
                     ],
                 },
+            ],
+            '/languages/': [
+                {
+                    text: "语言支持",
+                    items: [
+                        {text: 'PHP', link: '/languages/php'},
+                    ]
+                }
             ],
         },
     }
