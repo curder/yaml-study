@@ -46,6 +46,7 @@ export default defineConfig({
                     text: "语言支持",
                     items: [
                         {text: 'PHP', link: '/languages/php'},
+                        {text: 'node.js', link: '/languages/nodejs'},
                     ]
                 }
             ],
