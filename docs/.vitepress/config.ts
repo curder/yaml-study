@@ -28,7 +28,7 @@ export default defineConfig({
         ],
         nav: [
             {text: '基础', link: '/guide/rules', activeMatch: '/guide/'},
-            {text: '其他语言支持', link: '/languages/php', activeMatch: '/languages/'},
+            {text: '语言支持', link: '/languages/php', activeMatch: '/languages/'},
         ],
         sidebar: {
             "/guide/": [
