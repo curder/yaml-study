@@ -47,6 +47,7 @@ export default defineConfig({
                     items: [
                         {text: 'PHP', link: '/languages/php'},
                         {text: 'node.js', link: '/languages/nodejs'},
+                        {text: 'Python', link: '/languages/python'},
                     ]
                 }
             ],
